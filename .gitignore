@@ -2,6 +2,8 @@
 
 myenv/
 
+## VSCODE 
+.vscode/
 ### Django ###
 *.log
 *.pot
