@@ -9,7 +9,7 @@ import Loader from '../components/Loader'
 import Message from '../components/Message'
 
 
-function ProductScreen({ history }) {
+function ProductScreen() {
     const match = useParams()
     const navigate = useNavigate()
     const [qty, setQty] = useState(1)
