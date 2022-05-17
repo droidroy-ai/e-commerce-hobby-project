@@ -36,7 +36,7 @@ function ProductScreen() {
             dispatch({ type: PRODUCT_CREATE_REVIEW_RESET })
         }
         dispatch(listProductDetails(match.id))
-    }, [dispatch, successReview, match])
+    }, [dispatch, successReview, errorReview, match])
 
     const addToCartHandler = () => {
         navigate(`/cart/${match.id}?qty=${qty}`)
